@@ -6,6 +6,7 @@ from os import path, getcwd, chdir
 # and place it inside a local folder and edit the path to that location
 path = f"{getcwd()}/../tmp2/mnist.npz"
 
+#function to train model
 def train_mnist():
     # Please write your code only where you are indicated.
     # please do not remove # model fitting inline comments.
